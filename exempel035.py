@@ -79,7 +79,7 @@ while True:
  cv2.imshow('Thresh', thresh_delta)
   
  if cv2.waitKey(1) & 0xFF == ord('q'):
-  break;
+  break
 
 video.release()
 cv2.destroyAllWindows()
